@@ -33,7 +33,7 @@ void calculateScore(string name, int score1, int score2, int score3) {
         resultText = "Mendapatkan Hadiah Hiburan";
     }
 
-    cout << name << " " << resultText << endl;
+    cout << name << "Nilai rata-ratanya adalah :"<< average << " maka dia mendapatkan " << resultText << endl;
 
     return;
 }
